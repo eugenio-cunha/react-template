@@ -1,0 +1,9 @@
+build/
+node_modules/
+.git/
+.gitlab-ci.yml
+.prettierrc
+.gitignore
+.eslintrc.json
+.editorconfig
+README.md
