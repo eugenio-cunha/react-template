@@ -9,12 +9,14 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
   html, body, #root {
-    height: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
   }
   body {
-    font: 14px 'Roboto', sans-serif;
-    background: #f9f9fa;
-    color: #333;
+    font: 400 14px/24px Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+    color: #616161;
     -webkit-font-smoothing: antialiased !important;
   }
   ul {
