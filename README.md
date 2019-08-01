@@ -3,8 +3,8 @@ Projeto template para aplicações React (Atomic design)
 
 ## Atomic Design
 ```
-src
-└── components
+.
+└── src
     │
     ├── styles
     │   ├── global.jsx
