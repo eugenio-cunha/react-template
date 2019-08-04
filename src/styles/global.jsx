@@ -10,8 +10,6 @@ export default createGlobalStyle`
   }
   html, body, #root {
     min-height: 100%;
-    display: flex;
-    flex-direction: column;
     background-color: #fff;
   }
   body {
