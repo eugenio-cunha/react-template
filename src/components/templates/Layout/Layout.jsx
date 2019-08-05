@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-import { Header, Main, Footer } from '../../organisms'
+import { Header, Main, Footer } from '../../organisms';
 
 const Container = styled.div`
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-template-rows: minmax(30px, 50px) auto minmax(30px, 40px); 
+  grid-template-rows: minmax(30px, 50px) auto minmax(30px, 40px);
 
   grid-template-areas:
     'header header header'
@@ -20,7 +20,7 @@ export default class Layout extends Component {
     return (
       <Container>
         <Header />
-        <Main />
+        <Main>{this.props.children}</Main>
         <Footer />
       </Container>
     );

@@ -12,6 +12,7 @@ export default class Main extends Component {
     return (
       <Container>
         <div>main</div>
+        {this.props.children}
       </Container>
     );
   }
